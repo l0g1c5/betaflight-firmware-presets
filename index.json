@@ -153,7 +153,6 @@
     "author": [
       "AyyyKayyy - Anthony Knight",
       "Betaflight",
-      "Chris Rosser",
       "ctzsnooze",
       "Daniel Appel / Tehllama",
       "Garban",
@@ -168,15 +167,9 @@
       "1S",
       "20ms",
       "250Hz",
-      "3",
-      "3.5",
-      "4",
       "4s",
-      "5",
-      "5.5",
       "50Hz",
       "65mm",
-      "7",
       "acro",
       "Acrobaix",
       "actual",
@@ -191,10 +184,6 @@
       "brushless",
       "camera",
       "camera_control",
-      "chris",
-      "cine25",
-      "cine35",
-      "cine80",
       "Configure",
       "control",
       "DDC",
@@ -217,7 +206,6 @@
       "link",
       "log",
       "logging",
-      "lr5",
       "meteor",
       "mode",
       "modes",
@@ -235,7 +223,6 @@
       "rc_smoothing",
       "reset",
       "reset statistics",
-      "rosser",
       "RuinedFPV",
       "Rx",
       "smoothing",
@@ -244,10 +231,7 @@
       "sub 250",
       "sugarK",
       "switch",
-      "T3",
       "tune",
-      "ul5",
-      "ul7",
       "utility",
       "vtx",
       "vtx table",
@@ -313,6 +297,22 @@
         "switch"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/RuinedFPV_OSD.txt",
+      "hash": "ab125a8015c38b6cc4f2dc065a09d81d19c1f9d5751adb01e0bd3a920c086a26",
+      "title": "Ruined FPV OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "RuinedFPV",
+        "OSD"
+      ],
+      "author": "RuinedFPV",
       "priority": 0
     },
     {
@@ -808,259 +808,6 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_3.5_filters.txt",
-      "hash": "7e6093be6d2aec003d2e8aa2d5662c2685fc89ee8ec1f31bf4b637913acc9d30",
-      "title": "AOS 3.5 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "3.5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_4_filters.txt",
-      "hash": "f7c316d49ca2c7a529e917ba844fb71cb0a80002e22d5f8289fac929186a7e36",
-      "title": "AOS 4 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "4"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_5.5_filters.txt",
-      "hash": "706a03ddc9cefb81198b5642f16f1ff0cd448429a0ac591424882d517b312e40",
-      "title": "AOS 5.5 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "5.5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_5_filters.txt",
-      "hash": "2d5b7cc9f0ec936c67cfe276f67789ffa35ae59d1bb98c46c39862b51e402535",
-      "title": "AOS 5 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_7_filters.txt",
-      "hash": "261b05b7a82bb3789aed282c5e1c82aa36b8a1b9dfd6eedc5c3d070071887bb8",
-      "title": "AOS 7 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "7"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_cine25_filters.txt",
-      "hash": "3a16c36d90b8fc6bbee0af46ad2b9b6602251bc9bb076f171ad563ab712b9f8a",
-      "title": "AOS Cine25 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine25"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_cine35_filters.txt",
-      "hash": "015b4ea9eeee939f3f5fd3a943e348358205d8c1beca6d5aa59927cbefee37a5",
-      "title": "AOS Cine35 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine35"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_cine80_filters.txt",
-      "hash": "3f28a69eac20f7c08ffb7f8b9f5d9c6d4250f59747ddd289113ba31973dbda7a",
-      "title": "AOS Cine80 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine80"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_lr5_filters.txt",
-      "hash": "ff22f0927d164d2e2da9af1b15fe34df77a5b449258fef5b6e067d7addc8a1ee",
-      "title": "AOS LR5 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "lr5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_t3_filters.txt",
-      "hash": "339eb22eda3e2150ee2e99f03f688edeb92c3ed72aa8da27fa6a8eefd4623090",
-      "title": "AOS T3",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "T3",
-        "3"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_ul5_filters.txt",
-      "hash": "2ef55826a5e6f09874728710bc2b71705f8990cf68dcfcf181adecd07875f8d5",
-      "title": "AOS UL5 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "ul5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.4/filters/aos_rc/aos_ul7_filters.txt",
-      "hash": "e56a37902cfc9e4f0ea2bcf6b7a68e6465e92195ce4ce38ef04f78392573ae41",
-      "title": "AOS UL7 Filters",
-      "firmware_version": [
-        "4.4",
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "ul7"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
       "fullPath": "presets/4.5/filters/defaults.txt",
       "hash": "618e82175f3f63abfcbdd5315e2c17d915f608ac42af22aa1256470f3d2ea5fe",
       "title": "Default 4.5 Filter settings",
@@ -1097,26 +844,6 @@
       ],
       "author": "Betaflight",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/tune/defaults_tune_filters.txt",
-      "hash": "96b06ac2382874bdf295486f646aa2e7ff2739bb2e5b664d0bb9e0f555335624",
-      "title": "Defaults: TUNE + FILTERS",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "tune",
-        "pid",
-        "default",
-        "filters"
-      ],
-      "author": "Betaflight",
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.5/tune/whoop_ayyykayyy.txt",
