@@ -136,6 +136,7 @@
       "3.5",
       "4.2",
       "4.3",
+      "4.3, 4.4, 4.5",
       "4.4",
       "4.5"
     ],
@@ -279,38 +280,21 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
-      "title": "Default 4.3 Modes and Adjustment settings",
+      "fullPath": "presets/4.3/modes/ruinedfpv_modes.txt",
+      "hash": "00433517a16b8c67b86604aef09accd963eecc4037c41baf932490fb2fbf4b97",
+      "title": "RuinedFPV Modes and Adjustment settings",
       "firmware_version": [
-        "4.3"
+        "4.3, 4.4, 4.5"
       ],
       "category": "MODES",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
-        "defaults",
         "reset",
         "mode",
         "modes",
         "adjustments",
         "aux",
         "switch"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/RuinedFPV_OSD.txt",
-      "hash": "ab125a8015c38b6cc4f2dc065a09d81d19c1f9d5751adb01e0bd3a920c086a26",
-      "title": "Ruined FPV OSD settings",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "RuinedFPV",
-        "OSD"
       ],
       "author": "RuinedFPV",
       "priority": 0
@@ -382,6 +366,22 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/ruinedfpv_osd.txt",
+      "hash": "ab125a8015c38b6cc4f2dc065a09d81d19c1f9d5751adb01e0bd3a920c086a26",
+      "title": "Ruined FPV OSD settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "RuinedFPV",
+        "OSD"
+      ],
+      "author": "RuinedFPV",
       "priority": 0
     },
     {
