@@ -191,7 +191,6 @@
       "default",
       "defaults",
       "disable",
-      "DJI",
       "ELRS",
       "expert",
       "express",
@@ -317,41 +316,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/UAV_tech_DJI.txt",
-      "hash": "a03355bd8a7debf8d543d0f37d2276c4babde937c4d79fa9b1fcbca1ad6ec313",
-      "title": "UAV Tech - DJI",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "OFFICIAL",
-      "keywords": [
-        "DJI"
-      ],
-      "author": "UAV Tech (Mark Spatz)",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/UAV_tech_DJI_GPS.txt",
-      "hash": "096fddf47bf877aec251823b5a97dd81a261fbad89f50e19ecfcda1cdb4e8382",
-      "title": "UAV Tech - DJI with GPS",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "OFFICIAL",
-      "keywords": [
-        "DJI",
-        "GPS"
-      ],
-      "author": "UAV Tech (Mark Spatz)",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "title": "Default 4.3 OSD settings",
@@ -370,16 +334,38 @@
     },
     {
       "fullPath": "presets/4.3/osd/ruinedfpv_osd.txt",
-      "hash": "ab125a8015c38b6cc4f2dc065a09d81d19c1f9d5751adb01e0bd3a920c086a26",
-      "title": "Ruined FPV OSD settings",
+      "hash": "05d49a997c15f49eaee8bc9f86113642e38732d9ba4862b98bebfc4f6f3f18e4",
+      "title": "Ruined FPV OSD1 settings",
       "firmware_version": [
+        "4.3",
+        "4.4",
         "4.5"
       ],
       "category": "OSD",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "RuinedFPV",
-        "OSD"
+        "OSD",
+        "analog"
+      ],
+      "author": "RuinedFPV",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/ruinedfpv_osd2.txt",
+      "hash": "5ada7f91766b9e15e7bda4ce952a48c1f88e3aae1a7b0de440e756349737fdb5",
+      "title": "Ruined FPV OSD2 settings",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RuinedFPV",
+        "OSD",
+        "analog"
       ],
       "author": "RuinedFPV",
       "priority": 0

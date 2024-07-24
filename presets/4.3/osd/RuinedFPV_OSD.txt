@@ -1,10 +1,15 @@
-#$ TITLE: Ruined FPV OSD settings
+#$ TITLE: Ruined FPV OSD1 settings
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
-#$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: RuinedFPV, OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: RuinedFPV, OSD, analog
 #$ AUTHOR: RuinedFPV
-#$ DESCRIPTION: Ruined FPV OSD settings
+#$ DESCRIPTION: Ruined FPV OSD1 settings
+
+#$ PARSER: MARKED
+#$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_units = METRIC
 set osd_warn_bitmask = 270335
